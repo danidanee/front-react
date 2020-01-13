@@ -4,8 +4,6 @@
 
 const requestLogin = (data,callback,errorCallback) => {
     //백앤드와 로그인 통신하는 부분
-
-
 }
 
 const UserApi = {

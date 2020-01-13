@@ -10,4 +10,3 @@
         props : ['text', 'isBackground'],
     }
 </script>
-\

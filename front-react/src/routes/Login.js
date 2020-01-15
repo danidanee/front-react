@@ -3,6 +3,7 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 
 class Login extends React.Component{
+
     state = {
         emailEntered: "",
         isemailVaild: true,
@@ -19,7 +20,7 @@ class Login extends React.Component{
                 emailEntered
             });
         }
-        else if(emailEntered.length == 0){
+        else if(emailEntered.length === 0){
             this.setState({
                 isemailVaild : true,
                 emailEntered
@@ -42,7 +43,7 @@ class Login extends React.Component{
                 passEntered
             });
         }
-        else if(passEntered.length == 0){
+        else if(passEntered.length === 0){
             this.setState({
                 ispassVaild : true,
                 passEntered
@@ -74,11 +75,10 @@ class Login extends React.Component{
         }
         else{
             return (
-                <button type="submit" className="btn_login" id="btn_login" disabled>로그인 아직</button>
+                <button type="submit" className="btn_login" id="btn_login" disabled>로그인</button>
             );
         }
-
-      };
+    };
 
     render(){
         const {isemailVaild, ispassVaild} = this.state;
@@ -87,8 +87,9 @@ class Login extends React.Component{
                 <form className="LoginForm" id="LoginForm">
                     <div className="main-login">
 
-                        <div className="login_letter" id="login_letter">
-                            <h1>로그인을 하고 나면<br/>좋은 일만 있을 거예요.</h1>
+                        <div className="div_login_letter">
+                            <img className="login_letter" id="login_logo" alt="logo"src="https://miro.medium.com/max/320/1*ScCQRqiRp2NZK0yHN-moGQ.jpeg"></img>
+                            <h1 className="login_letter">로그인을 하고 나면<br/>좋은 일만 있을 거예요.</h1>
                         </div>
                         
                         <div className="div_login" id="div_email">
@@ -102,7 +103,7 @@ class Login extends React.Component{
                             <label className="login_label" htmlFor="input_pass">비밀번호</label>
                             <input className="input_login" id="input_pass" placeholder="비밀번호를 입력하세요." type="password"
                             onChange={e => this.vaildatePass(e.target.value)}></input>
-                            {ispassVaild ? "" : <div className="div_error" id="error_pass">영문,숫자 포함 8 자리이상 20자리 이하여야 합니다.</div>}
+                            {ispassVaild ? "" : <div className="div_error" id="error_pass">영문, 숫자 또는 특수기호 포함 8 자리이상 20자리 이하여야 합니다.</div>}
                         </div>
                         
 
@@ -119,8 +120,8 @@ class Login extends React.Component{
 
                 <div className="div_easy_login div_login">
                     <p className="easy_login_text">SNS 간편 로그인</p>
-                    <img className="sns_img" id="kakao_login" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kakao_logo.jpg"></img>
-                    <img className="sns_img" id="google_id" src="https://i1.wp.com/kaist-valuecreator.com/wp-content/uploads/2019/09/25p_%EA%B5%AC%EA%B8%80%EB%A1%9C%EA%B3%A0-2.jpg?w=900&ssl=1"></img>
+                    <img className="sns_img" id="kakao_login" alt="카카오톡 로그인" src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Kakao_logo.jpg"></img>
+                    <img className="sns_img" id="google_id" alt="구글 로그인"src="https://i1.wp.com/kaist-valuecreator.com/wp-content/uploads/2019/09/25p_%EA%B5%AC%EA%B8%80%EB%A1%9C%EA%B3%A0-2.jpg?w=900&ssl=1"></img>
                 </div>
 
                 <div className="bar"></div>

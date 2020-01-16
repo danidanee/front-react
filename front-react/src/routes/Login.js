@@ -67,8 +67,7 @@ class Login extends React.Component{
         if (this.isEveryFieldValid()) {
             return (
                 <Link to = {{pathname:"/",
-                    state:{emailEntered}
-                }}>
+                    state:{emailEntered}}}>
                     <button type="submit" className="btn_login" id="btn_login">로그인</button>
                 </Link>
             );
@@ -88,7 +87,7 @@ class Login extends React.Component{
                     <div className="main-login">
 
                         <div className="div_login_letter">
-                            <img className="login_letter" id="login_logo" alt="logo"src="https://miro.medium.com/max/320/1*ScCQRqiRp2NZK0yHN-moGQ.jpeg"></img>
+                            <img className="login_letter" id="login_logo" alt="logo"src="https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/51509279_2273147216232041_7122269298302648320_n.png?_nc_cat=1&_nc_ohc=9q184Zy6nXEAX8PwbyI&_nc_ht=scontent-icn1-1.xx&oh=5c0afe93595a028dbb95faea32b60372&oe=5E94C0C3"></img>
                             <h1 className="login_letter">로그인을 하고 나면<br/>좋은 일만 있을 거예요.</h1>
                         </div>
                         
@@ -129,13 +128,12 @@ class Login extends React.Component{
                 <div className="div_find div_login">
                     <div>
                         <p className="pass_find">비밀번호를 잊으셨나요?</p>
-                        <Link to = {{pathname:"/"}}>
+                        <Link to = {{pathname:"/passfind"}}>
                             <p className="pass_find" id="pass_find">비밀번호 찾기</p>
                         </Link>
                     </div>
                 </div>
-            </div>
-            
+            </div>            
         );
     }
 }

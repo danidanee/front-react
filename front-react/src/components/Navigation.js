@@ -9,6 +9,7 @@ function Navigation(){
             <Link to="/">Main</Link> 
             <Link to="/login">LOG IN</Link> 
             <Link to="/signup">SIGN UP</Link>
+            <Link to="/passchange">Pass Change</Link>
         </nav>
     );
 }

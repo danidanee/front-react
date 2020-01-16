@@ -7,80 +7,79 @@
 }
 
 @media (min-width:800px) {
-  .div_login, .div_loginbtn, .bar, .div_login_letter {
+  .PassChange {
       max-width: 400px;
       width: 100%;
       margin:0 auto;
   }
 }
 
-.Login {
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-top: 5%;
-}
 
 .login_letter {
   display: inline-block;
   text-align: left;
 }
 
-#login_logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
+#Hi_logo {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
   margin-right: 20px;
   margin-bottom: 5px;
 }
 
-.div_login {
+.div_passchange {
   position: relative;
   border: 2px black;
   padding-bottom: 10px;
 }
 
-.input_login:hover, .input_login:focus {
+#div_passchange_letter{
+  margin-top: 10%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.passchange_letter {
+  margin-left: 10px;
+}
+
+.input_passchange:hover, .input_passchange:focus {
   border: 2px solid black;
 }
 
-.input_login:focus {
+.input_passchange:focus {
   border: 2px solid black;
 }
 
-.input_login {
-  width: calc(100% - 75px);
+.input_passchange {
+  display: inline-block;
+  width: calc(100% - 130px);
   height : 40px;
   padding-left: 70px;
+  margin-right: 10px;
   text-transform: lowercase;
 }
 
-.login_label {
+.passchange_label {
   position: absolute;
   left: 15px;
   top : 15px;
   font-size: 0.8em;
 }
 
-.btn_login, .btn_signup {
-  border-radius: 5px;
+.btn_passchange {
+  border-radius: 20px;
   display: inline-block;
   height: 40px;
-  width: calc(50% - 2.5px);
+  width: 40px;
   color: white;
-  background-color:rgba(255, 68, 0, 0.863);
-  border: 2px rgba(255, 68, 0, 0.863);
-  font-size: 1em;
-  font-weight: 400;
-  margin-top: 15px;
+  background-color:orange;
+  border: 2px orange;
+  font-size: 2em;
+  font-weight: 900;
   margin-bottom: 30px;
-}
-
-.btn_login {
-  margin-right: 2.5px;
-}
-
-.btn_signup {
-  margin-left: 2.5px;
+  vertical-align: -10%;
 }
 
 .div_error {
@@ -88,42 +87,4 @@
   font-size: 0.8em;
   padding-left: 5px;
   padding-top: 10px;
-}
-
-.easy_login_text {
-  display: inline-block;
-  padding-left: 5px;
-  margin-top: 20px;
-  margin-bottom: 55px;
-  font-size: 0.8em;
-  color: gray;
-}
-
-.bar {
-  height: 1.5px;
-  width: 100%;
-  background-color: gray;
-}
-
-.pass_find {
-  padding-left: 5px;
-  padding-top: 10px;
-  display: inline-block;
-  font: bolder;
-  font-size: 0.9em;
-  font-weight: 700;
-}
-
-#pass_find {
-  padding-right: 5px;
-  float: right;
-}
-
-.sns_img {
-  float: right;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  margin-top: 30px;
-  margin-right: 20px;
 }

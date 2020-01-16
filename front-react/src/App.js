@@ -4,7 +4,8 @@ import Main from "./routes/Main"
 import Signup from "./routes/Signup"
 import Login from "./routes/Login"
 import NotFound from "./routes/NotFound"
-import PassChange from "./routes/PassChange"
+import PassFind from "./routes/PassFind"
+import PassFindComplete from "./routes/PassFindComplete"
 import './App.css';
 import Navigation from './components/Navigation';
 
@@ -17,7 +18,8 @@ function App() {
         </Route>
         <Route path="/signup" component={Signup} />
         <Route path="/login" component={Login} />
-        <Route path="/passchange" component={PassChange} />
+        <Route path="/passfind" component={PassFind} />
+        <Route path="/passfindcomplete" component={PassFindComplete} />
         <Route component={NotFound} />
       </Switch>
     </HashRouter>

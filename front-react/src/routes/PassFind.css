@@ -7,7 +7,7 @@
 }
 
 @media (min-width:800px) {
-  .PassChange {
+  .PassFind {
       max-width: 400px;
       width: 100%;
       margin:0 auto;
@@ -28,31 +28,31 @@
   margin-bottom: 5px;
 }
 
-.div_passchange {
+.div_passfind {
   position: relative;
   border: 2px black;
   padding-bottom: 10px;
 }
 
-#div_passchange_letter{
+#div_passfind_letter{
   margin-top: 10%;
   text-align: center;
   margin-right: 10px;
 }
 
-.passchange_letter {
+.passfind_letter {
   margin-left: 10px;
 }
 
-.input_passchange:hover, .input_passchange:focus {
+.input_passfind:hover, .input_passfind:focus {
   border: 2px solid black;
 }
 
-.input_passchange:focus {
+.input_passfind:focus {
   border: 2px solid black;
 }
 
-.input_passchange {
+.input_passfind {
   display: inline-block;
   width: calc(100% - 130px);
   height : 40px;
@@ -61,14 +61,14 @@
   text-transform: lowercase;
 }
 
-.passchange_label {
+.passfind_label {
   position: absolute;
   left: 15px;
   top : 15px;
   font-size: 0.8em;
 }
 
-.btn_passchange {
+.btn_passfind {
   border-radius: 20px;
   display: inline-block;
   height: 40px;
@@ -78,13 +78,9 @@
   border: 2px orange;
   font-size: 2em;
   font-weight: 900;
-  margin-bottom: 30px;
   vertical-align: -10%;
 }
 
-.div_error {
-  color: red;
-  font-size: 0.8em;
-  padding-left: 5px;
-  padding-top: 10px;
+.btn_passfind {
+  margin-right: 2.5px;
 }

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/nanumbarungothicsubset.css");
+
+* {
+  font-family: 'NanumBarunGothic', sans-serif;
+  word-break: keep-all;
+}
+
+@media (min-width:800px) {
+  .PassFindcomplete {
+      max-width: 400px;
+      width: 100%;
+      margin:0 auto;
+  }
+}
+
+.span_complete {
+  margin-left: 10px;
+}
+
+#Welcome_logo {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+
+.div_passfindcomplete {
+  position: relative;
+  border: 2px black;
+  padding-bottom: 10px;
+}
+
+#div_passfindcomplete_letter{
+  margin-top: 10%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.passfindcomplete_letter {
+  margin-left: 10px;
+}
+
+.btn_passfindcomplete {
+  border-radius: 5px;
+  display: inline-block;
+  height: 40px;
+  width: calc(50% - 2.5px);
+  color: white;
+  background-color:orange;
+  border: 2px orange;
+  font-size: 1em;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.btn_passfindcomplete {
+  margin-right: 2.5px;
+}
+
+

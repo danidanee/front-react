@@ -2,7 +2,7 @@
 - 제작이 필요한 페이지를 AdobeXD를 활용해 와이어 프레임 작성
 - 로그인, 회원가입, 비밀번호 변경/찾기, 예외 페이지 와이퍼 프레임
 
-
+ 
 
 <div>
     <h3>
@@ -14,8 +14,6 @@
         <img src="https://github.com/danidanee/front-react/blob/master/img/login3.png?raw=true" width="150px">
     </div>
 </div>
-
-
 
 
 
@@ -47,8 +45,6 @@
 
 
 
-
-
 <div>
     <h3>
         - 예외 페이지 와이어 프레임
@@ -58,10 +54,6 @@
         <img src="https://github.com/danidanee/front-react/blob/master/img/error.png?raw=true" width="150px">
     </div>
 </div>
-
-
-
-
 
 <h1>2. 로그인 화면</h1>
 - html 작성 및 CSS 컴포넌트 제작 - 반응형으로 제작
@@ -124,8 +116,8 @@ isEveryFieldValid = () => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web3.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web4.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web3.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web4.PNG?raw=true" width="200px"/>
     </div>
 </div>
 
@@ -193,8 +185,6 @@ vaildateEmail = emailEntered => {
     }
 ```
 
-
-
 - 회원가입 링크와 비밀번호 찾기 링크 연결
 
 ```javascript
@@ -219,9 +209,9 @@ vaildateEmail = emailEntered => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web1.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web2.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web3.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web1.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web2.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web3.PNG?raw=true" width="200px"/>
     </div>
 </div>
 
@@ -279,7 +269,7 @@ vaildatePassConfirm = passconfirmEntered => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web4.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web4.PNG?raw=true" width="200px"/>
     </div>
 </div>
 
@@ -342,13 +332,12 @@ input[id = "signup_agree"]:checked + label em {
 
 <h1>4. 비밀번호 변경, 삭제</h1>
 - 이메일 입력 값이 형식에 맞지 않을 경우 알림 문구 표시 및 확인 버튼 비활성화 (위의 코드 참고)
-
 - 확인 버튼 클릭 시 다음 화면으로 이동
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web1.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web2.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web1.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web2.PNG?raw=true" width="200px"/>
     </div>
 </div>
 
@@ -366,8 +355,8 @@ input[id = "signup_agree"]:checked + label em {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web3.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web4.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web3.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web4.PNG?raw=true" width="200px"/>
     </div>
 </div>
 
@@ -401,8 +390,8 @@ componentDidMount(){
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web2.PNG?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web1.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web2.PNG?raw=true" width="200px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web1.PNG?raw=true" width="200px"/>
     </div>
 </div>
 

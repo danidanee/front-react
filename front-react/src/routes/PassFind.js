@@ -1,6 +1,6 @@
 import React from 'react';
 import "./PassFind.css";
-import { Link } from "react-router-dom";
+import { Link,withRouter } from "react-router-dom";
 import Hi from '../img/Hi.jpg';
 
 class PassFind extends React.Component{
@@ -9,6 +9,17 @@ class PassFind extends React.Component{
         emailEntered: "",
         isemailVaild: true
     };
+
+    componentDidMount(){
+        const {location} = this.props;
+
+        if(location.state !== undefined){
+            this.setState ({
+                emailEntered : location.state
+            });
+        }
+    }
+
 
     vaildateEmail = emailEntered => {
         var email_pattern = /^[a-zA-Z0-9._-]+@[a-zA-z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -45,10 +56,7 @@ class PassFind extends React.Component{
             return (
                 <Link to = {{
                         pathname:"/passfindcomplete",
-                        state:{
-                            emailEntered,
-                            emailresend : false
-                        }
+                        state:{emailEntered}
                     }}>
                     <button className="btn_passfind">→</button>
                 </Link>
@@ -65,7 +73,7 @@ class PassFind extends React.Component{
         const {isemailVaild} = this.state;
         return(
             <div className="PassFind" id="PassFind">
-                <form className="PassFindForm" id="PassFindForm">
+                <div className="PassFindForm" id="PassFindForm">
                     <div className="main-login">
 
                         <div>
@@ -75,17 +83,17 @@ class PassFind extends React.Component{
                         
                         <div className="div_passfind">
                             <label className="passfind_label" htmlFor="input_email">이메일</label>
-                            <input className="input_passfind" id="input_passfind" placeholder="이메일을 입력하세요." type="text"
+                            <input className="input_passfind" id="input_passfind" placeholder="이메일을 입력하세요." type="text" value={this.state.emailEntered}
                             onChange={e => this.vaildateEmail(e.target.value)}></input>
                             {this.renderSubmitBtn()}
                             
                         </div>
                         {isemailVaild ? "" : <div className="div_error" id="error_email">이메일 형식이 아닙니다.</div>}
                     </div>
-                </form>
+                </div>
             </div>
         );
     }
 }
 
-export default PassFind;
+export default withRouter(PassFind);

@@ -6,8 +6,10 @@ import Login from "./routes/Login"
 import NotFound from "./routes/NotFound"
 import PassFind from "./routes/PassFind"
 import PassFindComplete from "./routes/PassFindComplete"
+import Error from "./routes/Error"
 import './App.css';
 import Navigation from './components/Navigation';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/login" component={Login} />
         <Route path="/passfind" component={PassFind} />
         <Route path="/passfindcomplete" component={PassFindComplete} />
+        <Route path="/error" component={Error} />
         <Route component={NotFound} />
       </Switch>
     </HashRouter>

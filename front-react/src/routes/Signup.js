@@ -196,7 +196,7 @@ class Signup extends React.Component{
                     <img className="signup_letter" id="signup_logo" alt="logo"src="https://dnvefa72aowie.cloudfront.net/origin/etc/201708/b1ae556883f38d116dd2d5ced0af232ebd3f35e3b2535fef1080a975f8c4a477.png"></img>
                 </div>
 
-                <form className="SignupForm" id="SignupForm">
+                <div className="SignupForm" id="SignupForm">
 
                     <div className="div_signup" id="div_signup">
                         <label className="signup_label" htmlFor="input_email">닉네임</label>
@@ -254,9 +254,7 @@ class Signup extends React.Component{
                             </Link>
                         </div> 
                     </div>
-                </form>
-
-                
+                </div>    
                 
             </div>
         );

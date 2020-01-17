@@ -7,36 +7,37 @@
 }
 
 @media (min-width:600px) {
-  .NotFound {
+  .Error {
       max-width: 500px;
       width: 100%;
       margin:0 auto;
   }
 }
 
-.NotFound_img {
+.Error_img {
   display: inline-block;
-  height: 50px;
-  width: 50px;
-  object-fit: cover;
-  vertical-align: -50%;
+  height: 100px;
+  width: 80px;
+  vertical-align: -100%;
+  margin-top: 30px;
 }
 
-.NotFound_h1_404 {
+.Error_h1_404 {
   display: inline-block;
   position: relative;
   margin-top: 10%;
   color: red;
 }
 
-.NotFound_h5_404 {
+.Error_h5_404 {
   display: inline-block;
   position: relative;
   margin-top: 5%;
-  color: orangered;
+  color: orange;
+  margin-left: 10px;
 }
 
-.NotFound_h2 {
+.Error_h2 {
   display: inline-block;
   position: relative;
   margin-top: 10%;
@@ -44,15 +45,24 @@
   color: rgb(77, 77, 77)
 }
 
-.NotFound_h2_page {
+.Error_h2_page {
   margin-top: 30px;
   margin-bottom: 40px;
+  margin-left: 10px;
 }
 
-.NotFound_h5{
+.Error_h5{
   line-height: 0em;
   font-weight: 400;
   color: gray;
+  margin-left: 10px;
+}
+
+.Error_h5_back{
+  display: inline-block;
+  margin-top: 5%;
+  color: orange;
+  margin-left: 40px;
 }
 
 

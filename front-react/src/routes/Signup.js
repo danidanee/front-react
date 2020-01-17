@@ -150,9 +150,6 @@ class Signup extends React.Component{
 
     isEveryFieldValid = () => {
         const { isnameVaild, isemailVaild, ispassVaild, ispassconfirmVaild, isphoneVaild, checked, nameEntered,emailEntered, passEntered,passconfirmEntered,phoneEntered,addressEntered } = this.state;
-        
-        //console.log(isnameVaild, isemailVaild, ispassVaild, ispassconfirmVaild, isphoneVaild, checked, nameEntered,emailEntered, passEntered,passconfirmEntered,phoneEntered,addressEntered);
-        
         return isnameVaild && isemailVaild && ispassVaild && ispassconfirmVaild && isphoneVaild && checked && nameEntered.length>0 && emailEntered.length>0  && passEntered.length>0 && passconfirmEntered.length>0 && phoneEntered.length>0 && addressEntered.length>0;
     };
 
@@ -161,7 +158,7 @@ class Signup extends React.Component{
         
         if (this.isEveryFieldValid()) {
             return (
-                <Link to = {{pathname:"/",state:{
+                <Link to = {{pathname:"/login",state:{
                     nameEntered,
                     emailEntered,
                     passEntered,

@@ -64,14 +64,13 @@
 
 
 <h1>2. 로그인 화면</h1>
-
 - html 작성 및 CSS 컴포넌트 제작 - 반응형으로 제작
 - Frontend 로그인 페이지 UI, UX 반영
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/login1.png?raw=true" width="550px" height="300px">
-        <img src="https://github.com/danidanee/front-react/blob/master/img/login2.png?raw=true" width="150px" height="300px">
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web1.PNG?raw=true" width="550px" height="300px">
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web2.PNG?raw=true" width="150px" height="300px">
     </div>
 </div>
 
@@ -125,8 +124,8 @@ isEveryFieldValid = () => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web3.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/login_web4.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
@@ -213,7 +212,6 @@ vaildateEmail = emailEntered => {
 
 
 <h1>3. 회원가입 화면</h1>
-
 - 이메일/패스워드 기반의 유저 가입 기능 구현
 - 이메일, 패스워드 형식 확인 (로그인과 코드 동일)
 - 닉네임 중복 확인 및 패스워드 일치여부, 핸드폰 형식 확인
@@ -221,9 +219,9 @@ vaildateEmail = emailEntered => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web1.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web2.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web3.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
@@ -281,7 +279,7 @@ vaildatePassConfirm = passconfirmEntered => {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/signup_web4.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
@@ -343,15 +341,14 @@ input[id = "signup_agree"]:checked + label em {
 
 
 <h1>4. 비밀번호 변경, 삭제</h1>
-
 - 이메일 입력 값이 형식에 맞지 않을 경우 알림 문구 표시 및 확인 버튼 비활성화 (위의 코드 참고)
 
 - 확인 버튼 클릭 시 다음 화면으로 이동
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web1.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web2.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
@@ -369,8 +366,8 @@ input[id = "signup_agree"]:checked + label em {
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web3.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/pass_web4.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
@@ -398,15 +395,14 @@ componentDidMount(){
 
 
 <h1>5. 예외 페이지 제작</h1>
-
 - 웹페이지 오류 발생 시 error 페이지 이동
 - 직전 페이지로 이동할 수 있는 버튼 배치
 - 존재하지 않는 URL 요청 시 Page Not Found 페이지 이동
 
 <div>
     <div>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
-        <img src="https://github.com/danidanee/front-react/blob/master/img/notfound.png?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web2.PNG?raw=true" width="150px"/>
+        <img src="https://github.com/danidanee/front-react/blob/master/img/error_web1.PNG?raw=true" width="150px"/>
     </div>
 </div>
 
